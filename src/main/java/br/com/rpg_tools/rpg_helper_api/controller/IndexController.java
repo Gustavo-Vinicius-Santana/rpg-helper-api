@@ -1,17 +1,20 @@
 package br.com.rpg_tools.rpg_helper_api.controller;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Map;
 
 @RestController
 public class IndexController {
 
-    @Value("${DATABASE_URL}")
-    private String databaseUrl;
-
     @GetMapping("/")
-    public String index() {
-        return "API RPG Helper está rodando 🚀\nDATABASE_URL = " + databaseUrl;
+    public Map<String, String> index() {
+        return Map.of(
+                "message", "API RPG Helper está rodando 🚀",
+                "developer", "Gustavo Vinicios de Santana Xavier",
+                "github", "https://github.com/Gustavo-Vinicius-Santana",
+                "linkedin", "https://www.linkedin.com/in/gustavo-vinicius-596005276/"
+        );
     }
 }
