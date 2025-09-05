@@ -20,10 +20,10 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - DATABASE_URL=jdbc:postgresql://postgres:5432/rpg-helper-db
-      - DATABASE_USERNAME=postgres
-      - DATABASE_PASSWORD=postgres
-      - SERVER_PORT=8080
+      - DATABASE_URL=jdbc:postgresql://dpg-d2t8fseuk2gs73ckabq0-a.oregon-postgres.render.com:5432/rpg_helper_db
+      - DATABASE_USERNAME=gus
+      - DATABASE_PASSWORD=VdOfDx6wP6u4BXCOlB3bqigXBqenamtf
+      - PORT=8080
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
       - SPRING_PROFILES_ACTIVE=dev
     restart: unless-stopped
