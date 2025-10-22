@@ -1,7 +1,7 @@
 package br.com.rpg_tools.rpg_helper_api.controller;
 
 import br.com.rpg_tools.rpg_helper_api.model.User;
-import br.com.rpg_tools.rpg_helper_api.service.UserService;
+import br.com.rpg_tools.rpg_helper_api.service.UserServiceIml;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,7 +13,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class UserController {
 
-    private final UserService userService;
+    private final UserServiceIml userService;
 
     @GetMapping
     public List<User> getAllUsers() {
