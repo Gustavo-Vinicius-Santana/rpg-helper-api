@@ -1,4 +1,4 @@
-package br.com.rpg_tools.rpg_helper_api.repository;
+package br.com.rpg_tools.rpg_helper_api.template.characterTemplate.repository;
 
 import br.com.rpg_tools.rpg_helper_api.template.characterTemplate.model.CharacterTemplate;
 import org.springframework.data.domain.Page;

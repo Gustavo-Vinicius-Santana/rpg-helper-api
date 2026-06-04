@@ -3,7 +3,7 @@ package br.com.rpg_tools.rpg_helper_api.template.characterTemplate.service;
 import br.com.rpg_tools.rpg_helper_api.template.characterTemplate.dto.CharacterTemplateRequestDTO;
 import br.com.rpg_tools.rpg_helper_api.template.characterTemplate.dto.CharacterTemplateResponseDTO;
 import br.com.rpg_tools.rpg_helper_api.template.characterTemplate.model.CharacterTemplate;
-import br.com.rpg_tools.rpg_helper_api.repository.CharacterTemplateRepository;
+import br.com.rpg_tools.rpg_helper_api.template.characterTemplate.repository.CharacterTemplateRepository;
 import br.com.rpg_tools.rpg_helper_api.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
