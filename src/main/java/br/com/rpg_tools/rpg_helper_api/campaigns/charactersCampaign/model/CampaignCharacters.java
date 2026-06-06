@@ -1,5 +1,6 @@
-package br.com.rpg_tools.rpg_helper_api.model;
+package br.com.rpg_tools.rpg_helper_api.campaigns.charactersCampaign.model;
 
+import br.com.rpg_tools.rpg_helper_api.campaigns.campaign.model.Campaign;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,7 +1,7 @@
-package br.com.rpg_tools.rpg_helper_api.service;
+package br.com.rpg_tools.rpg_helper_api.campaigns.charactersCampaign.service;
 
-import br.com.rpg_tools.rpg_helper_api.dto.CampaignCharactersRequestDTO;
-import br.com.rpg_tools.rpg_helper_api.dto.CampaignCharactersResponseDTO;
+import br.com.rpg_tools.rpg_helper_api.campaigns.charactersCampaign.dto.CampaignCharactersRequestDTO;
+import br.com.rpg_tools.rpg_helper_api.campaigns.charactersCampaign.dto.CampaignCharactersResponseDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

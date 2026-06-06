@@ -1,8 +1,8 @@
-package br.com.rpg_tools.rpg_helper_api.controller;
+package br.com.rpg_tools.rpg_helper_api.campaigns.charactersCampaign.controller;
 
-import br.com.rpg_tools.rpg_helper_api.dto.CampaignCharactersRequestDTO;
-import br.com.rpg_tools.rpg_helper_api.dto.CampaignCharactersResponseDTO;
-import br.com.rpg_tools.rpg_helper_api.service.CampaignCharactersService;
+import br.com.rpg_tools.rpg_helper_api.campaigns.charactersCampaign.dto.CampaignCharactersRequestDTO;
+import br.com.rpg_tools.rpg_helper_api.campaigns.charactersCampaign.dto.CampaignCharactersResponseDTO;
+import br.com.rpg_tools.rpg_helper_api.campaigns.charactersCampaign.service.CampaignCharactersService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
