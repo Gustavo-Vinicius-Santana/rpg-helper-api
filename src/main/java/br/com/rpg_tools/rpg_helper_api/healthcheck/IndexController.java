@@ -1,4 +1,4 @@
-package br.com.rpg_tools.rpg_helper_api.controller;
+package br.com.rpg_tools.rpg_helper_api.healthcheck;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

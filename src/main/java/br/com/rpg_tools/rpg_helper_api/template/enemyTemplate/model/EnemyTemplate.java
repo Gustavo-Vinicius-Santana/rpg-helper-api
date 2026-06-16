@@ -1,6 +1,6 @@
 package br.com.rpg_tools.rpg_helper_api.template.enemyTemplate.model;
 
-import br.com.rpg_tools.rpg_helper_api.model.User;
+import br.com.rpg_tools.rpg_helper_api.accounts.user.model.User;
 import br.com.rpg_tools.rpg_helper_api.template.enemyTemplate.dto.EnemyTemplateRequestDTO;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

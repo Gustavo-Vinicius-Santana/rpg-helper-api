@@ -1,7 +1,7 @@
 package br.com.rpg_tools.rpg_helper_api.campaigns.campaign.dto;
 
 import br.com.rpg_tools.rpg_helper_api.campaigns.campaign.model.Campaign;
-import br.com.rpg_tools.rpg_helper_api.model.User;
+import br.com.rpg_tools.rpg_helper_api.accounts.user.model.User;
 
 public record CampaignResponseDTO(
         Long id,

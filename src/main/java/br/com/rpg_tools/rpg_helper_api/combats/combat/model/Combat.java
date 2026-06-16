@@ -1,7 +1,7 @@
 package br.com.rpg_tools.rpg_helper_api.combats.combat.model;
 
 import br.com.rpg_tools.rpg_helper_api.combats.combat.dto.CombatRequestDTO;
-import br.com.rpg_tools.rpg_helper_api.model.User;
+import br.com.rpg_tools.rpg_helper_api.accounts.user.model.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

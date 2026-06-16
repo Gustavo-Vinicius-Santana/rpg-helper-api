@@ -1,6 +1,6 @@
 package br.com.rpg_tools.rpg_helper_api.template.characterTemplate.model;
 
-import br.com.rpg_tools.rpg_helper_api.model.User;
+import br.com.rpg_tools.rpg_helper_api.accounts.user.model.User;
 import br.com.rpg_tools.rpg_helper_api.template.characterTemplate.dto.CharacterTemplateRequestDTO;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package br.com.rpg_tools.rpg_helper_api.security;
+package br.com.rpg_tools.rpg_helper_api.accounts.auth.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
